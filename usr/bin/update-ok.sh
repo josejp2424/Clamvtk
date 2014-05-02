@@ -1,0 +1,1 @@
+/opt/clamav/update-ok.sh

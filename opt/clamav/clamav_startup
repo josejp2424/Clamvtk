@@ -1,0 +1,13 @@
+#!/bin/sh
+# clam-update
+# simple script
+#Update data base clamav-gui
+#Write by mama21mama y josejp2424
+#25092013 nilsonmorales l10n review
+
+exec /opt/clamav/system_tray_CLamAV &&
+for (( ; ; ))
+do
+freshclam --quiet --stdout -l /opt/clamav/clam-update.log
+sleep 59m
+done

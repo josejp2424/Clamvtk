@@ -1,0 +1,117 @@
+#!/bin/sh
+#ClamAV simple gui 
+#i18n josejp2424
+#l10n nilsonmorales
+#This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#25092013 nilsonmorales l10n review
+#30092013 josejp2424 script modified
+
+export TEXTDOMAIN=clamav-gui
+export OUTPUT_CHARSET=UTF-8
+
+TITLE="$(gettext 'CLamvtk')"
+VERSION="1.2.2"
+titlehelp="$(gettext 'about CLamvtk 1.2.2')"
+titlehelp1="$(gettext 'CLamvtk , is a graphical interface for ClamAV. Created by users. ')"
+titlehelp2="$(gettext 'notes and suggestions: in https://github.com/josejp2424/Clamvtk')"
+titlehelp3="$(gettext 'Authors : nilsonmorales, mama21mama, josejp2424')"
+titlehelp4="$(gettext 'License : 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GPL General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.')"
+titlehelp5="$(gettext '-')"
+titlegui="$(gettext 'ClamAV_Virus_Analyzer')"
+ICON="/usr/share/pixmaps/clamav_logo.png"
+script1="/opt/clamav/actualizar_base_virus"
+script2="/opt/clamav/instalar-startup & /root/Startup/clamav_startup"
+script3="rxvt +sb -fn 9x15 -bg black -fg white -title "$titlegui" -e /opt/clamav/escaneo_virus_clamav"
+script4="rox /opt/clamav/virus"
+script5="defaultbrowser http://www.clamav.net/lang/en/sendvirus/"
+script6="HelpGUI"
+script7="defaultbrowser https://github.com/josejp2424/Clamvtk"
+script8="defaultbrowser http://www.clamav.net/lang/en/faq/ "
+script9="defaultbrowser http://www.clamav.net/lang/en/"
+script11="clamav-gui"
+B_OK="GTK_STOCK_OK"
+Xdialog  --rc-file /opt/clamav/.color.rc --title="$TITLE $VERSION" --screen-center \
+--icon="$ICON"  \ --left --menubox "$(gettext '.')" 440x350 10 \
+ '1' "$(gettext '     Update virus DB')" \
+ '2' "$(gettext '     Auto update virus DB')" \
+ '3' "$(gettext '     Virus Analyzer')" \
+ '4' "$(gettext '     Quarantine files')" \
+ '5' "$(gettext '     Send virus files to CLamAV.')" \
+ '6' "$(gettext '     About')" \
+ '7' "$(gettext '     Oficial faq')" \
+ '8' "$(gettext '     Clamvtk Website')" \
+ '9' "$(gettext '     CLamAV Website')" \
+\
+2>/tmp/clamavscan.tmp
+r=`tail -n 1 /tmp/clamavscan.tmp`
+ 
+## Function HelpGUI
+function HelpGUI(){ 
+Xdialog --title "$titlehelp" --left --wrap --msgbox "$titlehelp1
+
+$titlehelp2
+`\".\"`
+$titlehelp3
+`\".\"`
+$titlehelp4 
+`\.\"`" 0 100
+} # End of function HelpGUI
+
+if [ "$r" == "1" ];then
+   $script1 && $script11
+   exit ## Exit Script ##
+fi
+   
+if [ "$r" == "2" ];then
+   $script2 && 
+   sleep 3 
+   $script11
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "3" ];then
+   $script3 && $script11
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "4" ];then
+   $script11 & $script4
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "5" ];then
+   $script11 & $script5
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "6" ];then
+   $script6 && $script11
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "7" ];then
+   $script11 & $script8
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "8" ];then
+  $script11 & $script7 
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "9" ];then
+   $script11 & $script9
+   exit ## Exit Script ##
+fi
+
+if [ "$r" == "10" ];then
+   $script10
+   exit ## Exit Script ##
+fi

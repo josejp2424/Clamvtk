@@ -1,0 +1,21 @@
+#!/bin/sh
+#Update data base clamav-gui
+#Write by mama21mama
+#i18n josejp2424
+#l10n nilsonmorales
+#25092013 nilsonmorales l10n review
+
+export TEXTDOMAIN=clamav-gui
+export OUTPUT_CHARSET=UTF-8
+
+icon="/usr/share/pixmaps/clamav_001.png"
+title="$(gettext 'Updating ClamAV database')"
+text="$(gettext 'the database was updated')"
+text1="$(gettext 'Please do not close the terminal, the program will tell you when finish updating.')"
+
+gtkdialog-splash -close box -bg orange -icon "$icon" -timeout 5 -text "$text1" &
+
+sleep 2
+rxvt +sb -fn 9x15 -bg black -fg white -title "$title"  -e bash /opt/clamav/command_clamav_update
+
+

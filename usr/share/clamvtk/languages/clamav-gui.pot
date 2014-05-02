@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the clamav-gui package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: clamav-gui VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-30 22:05-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: actualizar_base_virus.sh:12
+msgid "Updating ClamAV database"
+msgstr ""
+
+#: actualizar_base_virus.sh:13
+msgid "the database was updated"
+msgstr ""
+
+#: actualizar_base_virus.sh:14
+msgid "Please do not close the terminal, the program will tell you when finish updating."
+msgstr ""
+
+#: clamav-gui.sh:15
+msgid "CLamvtk"
+msgstr ""
+
+#: clamav-gui.sh:17
+msgid "about CLamvtk 1.2"
+msgstr ""
+
+#: clamav-gui.sh:18
+msgid "CLamvtk , is a graphical interface for ClamAV. Created by Puppy-es Os users. "
+msgstr ""
+
+#: clamav-gui.sh:19
+msgid "notes and suggestions: in http://puppyes.com.ar/foros/"
+msgstr ""
+
+#: clamav-gui.sh:20
+msgid "Authors : nilsonmorales, mama21mama, josejp2424"
+msgstr ""
+
+#: clamav-gui.sh:21
+msgid ""
+"License : \n"
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GPL General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version."
+msgstr ""
+
+#: clamav-gui.sh:26
+msgid "-"
+msgstr ""
+
+#: clamav-gui.sh:27
+msgid "ClamAV_Virus_Analyzer"
+msgstr ""
+
+#: clamav-gui.sh:41
+msgid "."
+msgstr ""
+
+#: clamav-gui.sh:42
+msgid "     Update virus DB"
+msgstr ""
+
+#: clamav-gui.sh:43
+msgid "     Auto update virus DB"
+msgstr ""
+
+#: clamav-gui.sh:44
+msgid "     Virus Analyzer"
+msgstr ""
+
+#: clamav-gui.sh:45
+msgid "     Quarantine files"
+msgstr ""
+
+#: clamav-gui.sh:46
+msgid "     Send virus files to CLamAV."
+msgstr ""
+
+#: clamav-gui.sh:47
+msgid "     About"
+msgstr ""
+
+#: clamav-gui.sh:48
+msgid "     Spanish faq in puppy-es"
+msgstr ""
+
+#: clamav-gui.sh:49
+msgid "     Oficial faq"
+msgstr ""
+
+#: clamav-gui.sh:50
+msgid "     CLamAV Website"
+msgstr ""
+
+#: clamav-gui.sh:51
+msgid "    "
+msgstr ""
+
+#: escaneo_virus_clamav.sh:11
+msgid ""
+"Enter the full path to scan, and wait for the final summary.\n"
+"Example: /mnt/sda1\n"
+"Enter location to scan: "
+msgstr ""
+
+#: escaneo_virus_clamav.sh:16
+msgid "Press [Enter] to continue..."
+msgstr ""
+
+#: instalar-startup.sh:12
+msgid "CLamAV Update."
+msgstr ""
+
+#: instalar-startup.sh:19
+msgid "If you want the database automatically update, select update... "
+msgstr ""
+
+#: instalar-startup.sh:27
+msgid "Update"
+msgstr ""
+
+#: instalar-startup.sh:28
+msgid "adding_automatic_updates"
+msgstr ""
+
+#: instalar-startup.sh:37
+msgid "Close"
+msgstr ""
+
+#: system_tray_CLamAV.sh:11
+msgid "Exit"
+msgstr ""
+
+#: system_tray_CLamAV.sh:12
+msgid "Disable automatic updates"
+msgstr ""
+
+#: update-error.sh:11
+msgid "Failed updating Data Base"
+msgstr ""
+
+#: update-ok.sh:10
+msgid "The database was updated"
+msgstr ""

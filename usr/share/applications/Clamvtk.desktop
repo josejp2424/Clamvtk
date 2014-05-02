@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Clamvtk interface
+Name[es]=ClamVtk interface para CLamAV
+GenericName=ClamVtk: CLamAV antivirus interface 
+GenericName[es]=ClamVtk interface para antivirus CLamAV
+Comment=ClamVtk: CLamAV antivirus interface...
+Comment[es]=ClamVtk: Interface para antivirus CLamAV...
+Exec=clamav-gui
+Icon=/usr/share/pixmaps/clamav_001.png
+Type=Application
+Terminal=false
+Categories=Utility
+StartupNotify=true

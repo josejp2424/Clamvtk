@@ -1,0 +1,1 @@
+/opt/clamav/update-error.sh

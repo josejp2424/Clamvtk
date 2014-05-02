@@ -1,0 +1,5 @@
+Wed Aug 21 20:57:50 2013 -> --------------------------------------
+Wed Aug 21 20:57:50 2013 -> ClamAV update process started at Wed Aug 21 20:57:50 2013
+Wed Aug 21 20:57:51 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Wed Aug 21 20:57:51 2013 -> daily.cld is up to date (version: 17717, sigs: 1637038, f-level: 63, builder: neo)
+Wed Aug 21 20:57:51 2013 -> bytecode.cld is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)

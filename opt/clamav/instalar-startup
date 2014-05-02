@@ -1,0 +1,45 @@
+#!/bin/bash
+#Autor: josejp2424
+#Startup install clamav-gui
+#Write by josejp2424
+#i18n-l10n nilsonmorales
+#25092013 nilsonmorales l10n review
+
+export TEXTDOMAIN=clamav-gui
+export OUTPUT_CHARSET=UTF-8
+
+MAIN_DIALOG='
+<window title="'$(gettext 'CLamAV Update.')'"> 
+<vbox>        
+	<pixmap>
+			<input file>/usr/share/pixmaps/clamav_001.png</input>
+			
+		</pixmap>
+     <text>
+      <label>"'$(gettext 'If you want the database automatically update, select update... ')'"</label>
+     </text> 
+      <text>
+      <label> .</label>
+     </text>
+     <hbox>
+     <button>
+      <input file>/usr/share/pixmaps/clamav_001.png</input>
+      <label>"'$(gettext 'Update')'"</label>
+      <action>gtkdialog-splash -close box -bg orange -icon "/usr/share/pixmaps/logo_clamav.jpg" -timeout 7 240x145 -text "'$(gettext 'adding_automatic_updates')'" & </action>
+      <action>ln -s /opt/clamav/clamav_startup /root/Startup/clamav_startup & </action>
+      <action>//opt/clamav/system_tray_CLamAV & </action>
+      <action type="exit">CLOSE &</action>
+    </button>
+    <text>
+      <label> .</label>
+     </text>
+    <button>
+      <label>"'$(gettext 'Close')'"</label>
+      <input file>/usr/local/lib/X11/mini-icons/mini-tick.xpm</input>
+      <action>rm -f /root/Startup/clamav_startup &</action>
+      <action type="exit">CLOSE &</action>
+     </button>
+     </hbox>
+</vbox>
+</window>
+' gtkdialog3 --program=MAIN_DIALOG

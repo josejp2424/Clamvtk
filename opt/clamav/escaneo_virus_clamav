@@ -1,0 +1,17 @@
+#!/bin/sh
+# clam-scan
+# simple script
+#Write by mama21mama - josejp2424
+#20130925 nilsonmorales i18n l10n review
+
+export TEXTDOMAIN=clamav-gui
+export OUTPUT_CHARSET=UTF-8
+
+clear
+read -p "$(gettext 'Enter the full path to scan, and wait for the final summary.
+Example: /mnt/sda1
+Enter location to scan: ')" NAME
+clamscan -v -r --bell -i --heuristic-scan-precedence=yes --recursive=yes --cross-fs=yes --scan-html=yes --detect-broken=yes --phishing-scan-urls=yes --phishing-cloak=yes --phishing-ssl=yes --scan-archive=no --move=/opt/clamav/virus $NAME -l ~/clamscan.log;
+
+read -p "$(gettext 'Press [Enter] to continue...')"
+

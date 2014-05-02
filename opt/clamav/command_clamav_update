@@ -1,0 +1,5 @@
+#!/bin/sh
+#Write by mama21mama y josejp2424
+#command update clamav 
+#25092013 nilsonmorales l10n review
+freshclam -v --quiet --stdout --on-update-execute=update-ok.sh --on-error-execute=update-error.sh  -l /opt/clamav/clam-update.log & tail -f /opt/clamav/clam-update.log

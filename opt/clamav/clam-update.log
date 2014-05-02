@@ -1,0 +1,89 @@
+Wed Aug 21 15:39:39 2013 -> --------------------------------------
+Wed Aug 21 15:39:39 2013 -> ClamAV update process started at Wed Aug 21 15:39:39 2013
+Wed Aug 21 15:39:39 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Wed Aug 21 15:39:39 2013 -> daily.cld is up to date (version: 17715, sigs: 1633195, f-level: 63, builder: neo)
+Wed Aug 21 15:39:39 2013 -> bytecode.cld is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Wed Aug 21 15:44:24 2013 -> --------------------------------------
+Wed Aug 21 15:44:24 2013 -> ClamAV update process started at Wed Aug 21 15:44:24 2013
+Wed Aug 21 15:44:24 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Wed Aug 21 15:44:24 2013 -> daily.cld is up to date (version: 17715, sigs: 1633195, f-level: 63, builder: neo)
+Wed Aug 21 15:44:24 2013 -> bytecode.cld is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Wed Aug 21 15:45:05 2013 -> --------------------------------------
+Wed Aug 21 15:45:05 2013 -> ClamAV update process started at Wed Aug 21 15:45:05 2013
+Wed Aug 21 15:45:05 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Wed Aug 21 15:45:05 2013 -> daily.cld is up to date (version: 17715, sigs: 1633195, f-level: 63, builder: neo)
+Wed Aug 21 15:45:05 2013 -> bytecode.cld is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Wed Aug 21 23:57:10 2013 -> --------------------------------------
+Wed Aug 21 23:57:10 2013 -> ClamAV update process started at Wed Aug 21 23:57:10 2013
+Wed Aug 21 23:57:10 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Wed Aug 21 23:57:41 2013 -> nonblock_recv: recv timing out (30 secs)
+Wed Aug 21 23:57:41 2013 -> WARNING: getfile: Error while reading database from db.local.clamav.net (IP: 64.6.100.177): No such file or directory
+Wed Aug 21 23:57:41 2013 -> WARNING: getpatch: Can't download daily-17718.cdiff from db.local.clamav.net
+Wed Aug 21 23:57:42 2013 -> Downloading daily-17718.cdiff [100%]
+Wed Aug 21 23:57:55 2013 -> daily.cld updated (version: 17718, sigs: 1637041, f-level: 63, builder: guitar)
+Wed Aug 21 23:58:01 2013 -> bytecode.cld is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Wed Aug 21 23:58:08 2013 -> Database updated (2681470 signatures) from db.local.clamav.net (IP: 129.21.171.98)
+Thu Aug 22 00:47:35 2013 -> --------------------------------------
+Thu Aug 22 00:47:35 2013 -> ClamAV update process started at Thu Aug 22 00:47:35 2013
+Thu Aug 22 00:47:35 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Thu Aug 22 00:47:35 2013 -> daily.cld is up to date (version: 17718, sigs: 1637041, f-level: 63, builder: guitar)
+Thu Aug 22 00:47:35 2013 -> bytecode.cld is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Thu Aug 22 01:15:32 2013 -> --------------------------------------
+Thu Aug 22 01:15:32 2013 -> ClamAV update process started at Thu Aug 22 01:15:32 2013
+Thu Aug 22 01:15:32 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Thu Aug 22 01:15:32 2013 -> daily.cvd is up to date (version: 17718, sigs: 1637041, f-level: 63, builder: guitar)
+Thu Aug 22 01:15:32 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Sun Aug 25 00:12:16 2013 -> --------------------------------------
+Sun Aug 25 00:12:16 2013 -> ClamAV update process started at Sun Aug 25 00:12:16 2013
+Sun Aug 25 00:12:17 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 00:12:26 2013 -> Downloading daily-17733.cdiff [100%]
+Sun Aug 25 00:12:28 2013 -> Downloading daily-17734.cdiff [100%]
+Sun Aug 25 00:12:29 2013 -> Downloading daily-17735.cdiff [100%]
+Sun Aug 25 00:12:30 2013 -> Downloading daily-17736.cdiff [100%]
+Sun Aug 25 00:16:20 2013 -> --------------------------------------
+Sun Aug 25 00:16:20 2013 -> ClamAV update process started at Sun Aug 25 00:16:20 2013
+Sun Aug 25 00:16:20 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 00:16:30 2013 -> Downloading daily-17733.cdiff [100%]
+Sun Aug 25 00:16:31 2013 -> Downloading daily-17734.cdiff [100%]
+Sun Aug 25 00:16:31 2013 -> Downloading daily-17735.cdiff [100%]
+Sun Aug 25 00:16:33 2013 -> Downloading daily-17736.cdiff [100%]
+Sun Aug 25 00:16:48 2013 -> daily.cld updated (version: 17736, sigs: 1644574, f-level: 63, builder: neo)
+Sun Aug 25 00:16:49 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Sun Aug 25 00:16:56 2013 -> Database updated (2689003 signatures) from db.local.clamav.net (IP: 209.198.147.20)
+Sun Aug 25 03:17:34 2013 -> --------------------------------------
+Sun Aug 25 03:17:34 2013 -> ClamAV update process started at Sun Aug 25 03:17:34 2013
+Sun Aug 25 03:17:34 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 03:17:39 2013 -> Downloading daily-17737.cdiff [100%]
+Sun Aug 25 03:17:42 2013 -> Downloading daily-17738.cdiff [100%]
+Sun Aug 25 03:17:51 2013 -> daily.cld updated (version: 17738, sigs: 1644978, f-level: 63, builder: neo)
+Sun Aug 25 03:17:51 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Sun Aug 25 03:17:58 2013 -> Database updated (2689407 signatures) from db.local.clamav.net (IP: 65.19.179.67)
+Sun Aug 25 18:58:58 2013 -> --------------------------------------
+Sun Aug 25 18:58:58 2013 -> Current working dir is /opt/clamav
+Sun Aug 25 18:58:58 2013 -> Max retries == 5
+Sun Aug 25 18:58:58 2013 -> ClamAV update process started at Sun Aug 25 18:58:58 2013
+Sun Aug 25 18:58:58 2013 -> Using IPv6 aware code
+Sun Aug 25 18:58:58 2013 -> Querying current.cvd.clamav.net
+Sun Aug 25 18:58:58 2013 -> TTL: 646
+Sun Aug 25 18:58:58 2013 -> Software version from DNS: 0.97.8
+Sun Aug 25 18:58:58 2013 -> main.cvd version from DNS: 54
+Sun Aug 25 18:58:58 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 18:58:58 2013 -> daily.cvd version from DNS: 17740
+Sun Aug 25 18:58:58 2013 -> daily.cld is up to date (version: 17740, sigs: 1645911, f-level: 63, builder: neo)
+Sun Aug 25 18:58:58 2013 -> bytecode.cvd version from DNS: 225
+Sun Aug 25 18:58:58 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Sun Aug 25 18:59:30 2013 -> --------------------------------------
+Sun Aug 25 18:59:30 2013 -> ClamAV update process started at Sun Aug 25 18:59:30 2013
+Sun Aug 25 18:59:30 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 18:59:30 2013 -> daily.cld is up to date (version: 17740, sigs: 1645911, f-level: 63, builder: neo)
+Sun Aug 25 18:59:30 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Sun Aug 25 19:00:26 2013 -> --------------------------------------
+Sun Aug 25 19:00:26 2013 -> ClamAV update process started at Sun Aug 25 19:00:26 2013
+Sun Aug 25 19:00:27 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 19:00:27 2013 -> daily.cld is up to date (version: 17740, sigs: 1645911, f-level: 63, builder: neo)
+Sun Aug 25 19:00:27 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
+Sun Aug 25 21:47:37 2013 -> --------------------------------------
+Sun Aug 25 21:47:37 2013 -> ClamAV update process started at Sun Aug 25 21:47:37 2013
+Sun Aug 25 21:47:37 2013 -> main.cvd is up to date (version: 54, sigs: 1044387, f-level: 60, builder: sven)
+Sun Aug 25 21:47:37 2013 -> daily.cld is up to date (version: 17742, sigs: 1646473, f-level: 63, builder: neo)
+Sun Aug 25 21:47:37 2013 -> bytecode.cvd is up to date (version: 225, sigs: 42, f-level: 63, builder: dgoddard)
